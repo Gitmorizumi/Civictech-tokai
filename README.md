@@ -1,6 +1,15 @@
 # Civic Tech@東海 Bluemix ハンズオン
 
-## Node-REDから外部APIを呼び出す
+ながれ
+ - [事前準備](## 事前準備)
+ - [作成するアプリ](## 作成するアプリ)
+ - [ IoT Platform Starterをデプロイする](## IoT Platform Starterをデプロイする)
+ - [Worldmapのノードを用意する](## Worldmapのノードを用意する)
+ - [フローの作成](## フローの作成)
+ - [動作確認](## 動作確認)
+ - [参考URL](## 参考URL)
+
+## 事前準備
 
 ### API Keyの取得
 以下のリンクよりGoogle MapsのAPI Keyを取得してください。
@@ -25,13 +34,14 @@ Google Static Maps APIキーが生成されます。
 https://maps.googleapis.com/maps/api/staticmap?center=Fukuoka &size=800x400&sensor=false&key=xxxxxxxxx（取得したAPIキー）
 
 
+## 作成するアプリ
 
-## Node-REDで位置情報付き ツイートを地図上に表示させる
+### Node-REDで位置情報付きツイートを地図上に表示させる
 Worldmapノードを使いNode-REDで位置情報付きツイートを地図上に表示させるア プリを開発します。Worldmapノード等のユーザー・インターフェスを取り扱うノードを使えば、HTMLで作成する必要がありません。
 ![appimage](images/appimage.png)
 
 
-## 全体フロー
+### 全体フロー
 Node-REDで作っていきます。
 ![allflow](images/allflow.png)
 
@@ -131,7 +141,7 @@ BUILDとDEPLOYが成功しているとステージの成功という表記とと
 Node-REDを開いてみると、locationのメニューにworldmapが追加されていることを確認してください。
 ![ide5](images/ide6.png)
 
-## いよいよフローの作成
+## フローの作成
 Node-RED Editorをオープンして、あらかじめ登録されているサンプル・フロー( Flow 1)とは別パレットに新規フロー(Flow 2)を作成します。
 ![nodered2](images/nodered2.png)
 
@@ -224,7 +234,7 @@ Node-REDの開発画面の左側のパレットから、worldmapノード�
 出来上がった各ノードをつなげて、右上のDepoyをクリックすれば完成です!エラーが 出ていないことを確認してください。
 ![nodered14](images/nodered14.png)
 
-### 動作確認
+## 動作確認
 地図を表示するURL(http://<アプリ名>.mybluemix.net/worldmap)にアクセスし、位置情報付きツイートが地図上に表示させることを確認してください。
 ![nodered15](images/nodered15.png)
 
