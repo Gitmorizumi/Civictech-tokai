@@ -209,8 +209,11 @@ return msg;
 
 ![nodered12](images/nodered12.png)
 
+
 pathの右にある鉛筆マークでPathを設定する。
+
 ![nodered11](images/nodered11.png)
+
 
 ### ⑧Worldmapノード
 Node-REDの開発画面の左側のパレットから、worldmapノードをフロー画面に配置するのみで、地図を表示するURL(http://<アプリ名>.mybluemix.net/worldmap)にア クセスできる様になる。
