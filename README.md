@@ -1,13 +1,13 @@
 # Civic Tech@東海 Bluemix ハンズオン
 
-ながれ
- - [事前準備](## 事前準備)
- - [作成するアプリ](## 作成するアプリ)
- - [ IoT Platform Starterをデプロイする](## IoT Platform Starterをデプロイする)
- - [Worldmapのノードを用意する](## Worldmapのノードを用意する)
- - [フローの作成](## フローの作成)
- - [動作確認](## 動作確認)
- - [参考URL](## 参考URL)
+目次
+ - [事前準備](#事前準備)
+ - [作成するアプリ](#作成するアプリ)
+ - [IoT Platform Starterをデプロイする](#IoT Platform Starterをデプロイする)
+ - [Worldmapのノードを用意する](#Worldmapのノードを用意する)
+ - [フローの作成](#フローの作成)
+ - [動作確認](#動作確認)
+ - [参考URL](#参考URL)
 
 ## 事前準備
 
